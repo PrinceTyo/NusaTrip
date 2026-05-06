@@ -1,7 +1,6 @@
 import { FaStar } from "react-icons/fa";
-import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import { IoCheckmarkCircleOutline, IoPricetagsOutline } from "react-icons/io5";
 import { PiCalendarCheckLight } from "react-icons/pi";
-import { IoPricetagsOutline } from "react-icons/io5";
 import { LiaMedalSolid } from "react-icons/lia";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
