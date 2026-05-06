@@ -4,6 +4,7 @@ import Destinations from "@/sections/Destinations";
 import Hero from "@/sections/Hero";
 import Parallax from "@/sections/Parallax";
 import Stats from "@/sections/Stats";
+import Cta from "@/sections/Cta";
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
       <Hero />
       <Stats />
       <About />
-      <Parallax />
       <Destinations />
+      <Parallax />
       <Advantages />
+      <Cta />
     </>
   );
 }
