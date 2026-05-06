@@ -20,7 +20,7 @@ export default function Reviews() {
       >
         <div className="flex items-end justify-between mb-10">
           <div className="space-y-4">
-            <p className="text-green-500 tracking-widest text-lg">
+            <p className="text-green-500 tracking-widest text-md">
               GENUINE REVIEWS
             </p>
             <h1 className="text-4xl font-semibold">Tourists talk about us</h1>
@@ -44,9 +44,9 @@ export default function Reviews() {
         </div>
         <CarouselContent className="-ml-1">
           {Array.from({ length: 8 }).map((_, index) => (
-            <CarouselItem key={index} className=" pl-1 lg:basis-1/3">
+            <CarouselItem key={index} className="pl-1 lg:basis-1/3">
               <div className="p-1">
-                <div className="rounded-lg w-106 bg-white p-6 space-y-4">
+                <div className="rounded-lg w-106 bg-white p-6 space-y-4 shadow-md">
                   <div className="flex items-center gap-x-4">
                     <Avatar className="w-16 h-16">
                       <AvatarImage
