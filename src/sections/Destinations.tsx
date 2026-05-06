@@ -20,7 +20,7 @@ export default function Destinations() {
         }}
         className="w-full"
       >
-        <div className="flex items-end justify-between mb-12">
+        <div className="flex items-end justify-between mb-10">
           <div className="space-y-4">
             <p className="text-green-500 tracking-widest text-lg">
               MANY TOURISTS CHOOSE
