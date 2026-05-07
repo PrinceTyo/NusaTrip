@@ -60,7 +60,7 @@ export default function Navbar() {
               <a
                 href="#"
                 className={`
-                      block py-2 px-3 rounded transition
+                      block py-2 px-4 rounded-md transition
                       ${
                         scrolled
                           ? "text-black hover:bg-primary hover:text-white transition duration-300"
@@ -75,7 +75,7 @@ export default function Navbar() {
               <a
                 href="#about"
                 className={`
-                      block py-2 px-3 rounded transition
+                      block py-2 px-4 rounded-md transition
                       ${
                         scrolled
                           ? "text-black hover:bg-primary hover:text-white transition duration-300"
@@ -90,7 +90,7 @@ export default function Navbar() {
               <a
                 href="#destinations"
                 className={`
-                      block py-2 px-3 rounded transition
+                      block py-2 px-4 rounded-md transition
                       ${
                         scrolled
                           ? "text-black hover:bg-primary hover:text-white transition duration-300"
@@ -105,7 +105,7 @@ export default function Navbar() {
               <a
                 href="#advantages"
                 className={`
-                      block py-2 px-3 rounded transition
+                      block py-2 px-4 rounded-md transition
                       ${
                         scrolled
                           ? "text-black hover:bg-primary hover:text-white transition duration-300"
@@ -120,7 +120,7 @@ export default function Navbar() {
               <a
                 href="#reviews"
                 className={`
-                      block py-2 px-3 rounded transition
+                      block py-2 px-4 rounded-md transition
                       ${
                         scrolled
                           ? "text-black hover:bg-primary hover:text-white transition duration-300"

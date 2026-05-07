@@ -1,4 +1,4 @@
-import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import { FaStar, FaStarHalfAlt, FaQuoteRight } from "react-icons/fa";
 import {
   Carousel,
   CarouselContent,
@@ -57,17 +57,22 @@ export default function Reviews() {
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
               <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
-                <div className="flex items-center gap-x-4">
-                  <Avatar className="w-16 h-16">
-                    <AvatarImage
-                      src="https://moliva.themenix.com/assets/img/avatars/a1.jpg"
-                      alt="Avatar Review"
-                    />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-x-4">
+                    <Avatar className="w-16 h-16">
+                      <AvatarImage
+                        src="https://moliva.themenix.com/assets/img/avatars/a1.jpg"
+                        alt="Avatar Review"
+                      />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <h1 className="text-xl font-semibold">John Doe</h1>
+                      <p className="text-gray-700 text-sm">Halstat, Austria</p>
+                    </div>
+                  </div>
                   <div>
-                    <h1 className="text-xl font-semibold">John Doe</h1>
-                    <p className="text-gray-700 text-sm">Halstat, Austria</p>
+                    <FaQuoteRight className="w-14 h-14 text-gray-100" />
                   </div>
                 </div>
                 <blockquote className="italic text-gray-700">
@@ -94,17 +99,22 @@ export default function Reviews() {
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
               <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
-                <div className="flex items-center gap-x-4">
-                  <Avatar className="w-16 h-16">
-                    <AvatarImage
-                      src="https://moliva.themenix.com/assets/img/avatars/a2.jpg"
-                      alt="Avatar Review"
-                    />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-x-4">
+                    <Avatar className="w-16 h-16">
+                      <AvatarImage
+                        src="https://moliva.themenix.com/assets/img/avatars/a2.jpg"
+                        alt="Avatar Review"
+                      />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <h1 className="text-xl font-semibold">Emily Smith</h1>
+                      <p className="text-gray-700 text-sm">Roma, Italy</p>
+                    </div>
+                  </div>
                   <div>
-                    <h1 className="text-xl font-semibold">Emily Smith</h1>
-                    <p className="text-gray-700 text-sm">Roma, Italy</p>
+                    <FaQuoteRight className="w-14 h-14 text-gray-100" />
                   </div>
                 </div>
                 <blockquote className="italic text-gray-700">
@@ -131,17 +141,22 @@ export default function Reviews() {
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
               <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
-                <div className="flex items-center gap-x-4">
-                  <Avatar className="w-16 h-16">
-                    <AvatarImage
-                      src="https://moliva.themenix.com/assets/img/avatars/a3.jpg"
-                      alt="Avatar Review"
-                    />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-x-4">
+                    <Avatar className="w-16 h-16">
+                      <AvatarImage
+                        src="https://moliva.themenix.com/assets/img/avatars/a3.jpg"
+                        alt="Avatar Review"
+                      />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <h1 className="text-xl font-semibold">Alex Mark</h1>
+                      <p className="text-gray-700 text-sm">Busan, Korea</p>
+                    </div>
+                  </div>
                   <div>
-                    <h1 className="text-xl font-semibold">Alex Mark</h1>
-                    <p className="text-gray-700 text-sm">Busan, Korea</p>
+                    <FaQuoteRight className="w-14 h-14 text-gray-100" />
                   </div>
                 </div>
                 <blockquote className="italic text-gray-700">
@@ -168,17 +183,22 @@ export default function Reviews() {
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
               <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
-                <div className="flex items-center gap-x-4">
-                  <Avatar className="w-16 h-16">
-                    <AvatarImage
-                      src="https://moliva.themenix.com/assets/img/avatars/a4.jpg"
-                      alt="Avatar Review"
-                    />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-x-4">
+                    <Avatar className="w-16 h-16">
+                      <AvatarImage
+                        src="https://moliva.themenix.com/assets/img/avatars/a4.jpg"
+                        alt="Avatar Review"
+                      />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <h1 className="text-xl font-semibold">Ariol Deep</h1>
+                      <p className="text-gray-700 text-sm">Kyoto, Japan</p>
+                    </div>
+                  </div>
                   <div>
-                    <h1 className="text-xl font-semibold">Ariol Deep</h1>
-                    <p className="text-gray-700 text-sm">Kyoto, Japan</p>
+                    <FaQuoteRight className="w-14 h-14 text-gray-100" />
                   </div>
                 </div>
                 <blockquote className="italic text-gray-700">
@@ -205,17 +225,22 @@ export default function Reviews() {
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
               <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
-                <div className="flex items-center gap-x-4">
-                  <Avatar className="w-16 h-16">
-                    <AvatarImage
-                      src="https://moliva.themenix.com/assets/img/avatars/a4.jpg"
-                      alt="Avatar Review"
-                    />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-x-4">
+                    <Avatar className="w-16 h-16">
+                      <AvatarImage
+                        src="https://moliva.themenix.com/assets/img/avatars/a3.jpg"
+                        alt="Avatar Review"
+                      />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <h1 className="text-xl font-semibold">Alex Mark</h1>
+                      <p className="text-gray-700 text-sm">Busan, Korea</p>
+                    </div>
+                  </div>
                   <div>
-                    <h1 className="text-xl font-semibold">Ariol Deep</h1>
-                    <p className="text-gray-700 text-sm">Kyoto, Japan</p>
+                    <FaQuoteRight className="w-14 h-14 text-gray-100" />
                   </div>
                 </div>
                 <blockquote className="italic text-gray-700">
