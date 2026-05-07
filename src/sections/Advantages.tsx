@@ -10,9 +10,9 @@ import {
 
 export default function Advantages() {
   return (
-    <section className="bg-gray-100 flex items-start justify-evenly p-20 gap-34">
-      <div className="relative max-w-[40%]">
-        <div className="absolute translate-x-1/2 top-1/8 -right-5">
+    <section className="bg-gray-100 flex flex-col-reverse lg:flex-row items-start lg:justify-evenly px-4 py-20 md:px-20 gap-14 lg:gap-34">
+      <div className="relative lg:max-w-[40%]">
+        <div className="absolute translate-x-1/2 -top-6 lg:top-1/8 right-1/4 lg:-right-5">
           <div className="p-4 space-y-2 bg-white rounded-t-lg justify-items-center">
             <h1 className="text-4xl font-bold">4.9</h1>
             <div className="text-yellow-500 flex items-center">
@@ -25,7 +25,7 @@ export default function Advantages() {
             <p>
               <span className="font-medium">2394</span> reviews
             </p>
-            <p className="py-1 px-1.5 text-sm rounded-md bg-green-600 text-white font-bold">
+            <p className="py-1 px-1.5 text-sm rounded-md bg-secondary text-white font-bold">
               Excellent
             </p>
           </div>
@@ -34,20 +34,20 @@ export default function Advantages() {
           </div>
         </div>
         <div className="flex items-center text-nowrap gap-x-8">
-          <div className="absolute left-6 top-8/12 gap-2 font-medium rounded-lg space-y-2 text-center px-2 py-4 w-32 text-wrap bg-green-500 text-gray-300">
+          <div className="absolute left-6 top-4/5 md:top-[90%] lg:top-8/12 gap-2 font-medium rounded-lg space-y-2 text-center px-2 py-4 w-32 text-wrap bg-secondary text-gray-300">
             <p className="text-white font-semibold text-4xl">+31</p>
             <p className="text-white">YEARS OF EXPERIENCE</p>
           </div>
           <img
             src="https://moliva.themenix.com/assets/img/about/a1.jpg"
             alt="About Image"
-            className="rounded-lg w-[210vh] ms-16"
+            className="rounded-lg md:w-[100vh] lg:w-[210vh] lg:ms-16"
           />
         </div>
       </div>
-      <div className="space-y-6 max-w-1/2">
-        <p className="text-green-500 tracking-widest">GREAT EXPERIENCE</p>
-        <h1 className="text-4xl font-semibold">Why choose us</h1>
+      <div className="space-y-3 lg:space-y-6 lg:max-w-1/2">
+        <p className="text-secondary tracking-widest">GREAT EXPERIENCE</p>
+        <h1 className="text-3xl lg:text-4xl font-semibold">Why choose us</h1>
         <p className="text-gray-700">
           We are a leading travel agency in Moliva with many years of
           experience, highly rated and appreciated by tourists.
@@ -55,10 +55,10 @@ export default function Advantages() {
 
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger className="hover:text-green-500 transition duration-200">
+            <AccordionTrigger className="hover:text-secondary transition duration-200">
               <div className="flex items-center justify-start gap-x-3">
-                <FaCheck size={22} className="text-green-500" />
-                <h1 className="text-xl font-semibold group-data-[state=open]:text-green-500">
+                <FaCheck className="w-5 h-5 lg:w-7 lg:h-7 text-secondary" />
+                <h1 className="text-lg lg:text-xl font-semibold group-data-[state=open]:text-secondary">
                   Leading travel agency in Nusa Trip
                 </h1>
               </div>
@@ -69,10 +69,10 @@ export default function Advantages() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger className="hover:text-green-500 transition duration-200">
+            <AccordionTrigger className="hover:text-secondary transition duration-200">
               <div className="flex items-center justify-start gap-x-3">
-                <FaCheck size={22} className="text-green-500" />
-                <h1 className="text-xl font-semibold group-data-[state=open]:text-green-500">
+                <FaCheck className="w-5 h-5 lg:w-7 lg:h-7 text-secondary" />
+                <h1 className="text-lg lg:text-xl font-semibold group-data-[state=open]:text-secondary">
                   Years of experience in tour operations
                 </h1>
               </div>
@@ -83,10 +83,10 @@ export default function Advantages() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger className="hover:text-green-500 transition duration-200">
+            <AccordionTrigger className="hover:text-secondary transition duration-200">
               <div className="flex items-center justify-start gap-x-3">
-                <FaCheck size={22} className="text-green-500" />
-                <h1 className="text-xl font-semibold group-data-[state=open]:text-green-500">
+                <FaCheck className="w-5 h-5 lg:w-7 lg:h-7 text-secondary" />
+                <h1 className="text-lg lg:text-xl font-semibold group-data-[state=open]:text-secondary">
                   Flexible tour package and bookings
                 </h1>
               </div>
@@ -97,10 +97,10 @@ export default function Advantages() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger className="hover:text-green-500 transition duration-200">
+            <AccordionTrigger className="hover:text-secondary transition duration-200">
               <div className="flex items-center justify-start gap-x-3">
-                <FaCheck size={22} className="text-green-500" />
-                <h1 className="text-xl font-semibold group-data-[state=open]:text-green-500">
+                <FaCheck className="w-5 h-5 lg:w-7 lg:h-7 text-secondary" />
+                <h1 className="text-lg lg:text-xl font-semibold group-data-[state=open]:text-secondary">
                   Best prices with attractive Offers
                 </h1>
               </div>
@@ -112,7 +112,7 @@ export default function Advantages() {
           </AccordionItem>
         </Accordion>
 
-        <button className="mt-10 py-3 px-6 text-white cursor-pointer font-medium tracking-widest bg-green-500 rounded-xl flex gap-x-1 ">
+        <button className="mt-10 py-3 px-6 text-white cursor-pointer font-medium tracking-widest bg-secondary rounded-xl flex gap-x-1 ">
           VIEW TOURS
           <IoIosArrowRoundForward size={24} />
         </button>

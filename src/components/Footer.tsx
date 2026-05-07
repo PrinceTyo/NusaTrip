@@ -7,21 +7,22 @@ import {
 import { RiTwitterXFill } from "react-icons/ri";
 import { Separator } from "@/components/ui/separator";
 import footerImage from "../assets/footer.png";
+import logoImage from "../assets/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary p-20 space-y-10 text-white">
-      <div className="flex items-start justify-start gap-x-20">
-        <div className="space-y-3 max-w-1/4">
-          <img
-            src="https://moliva.themenix.com/assets/img/logos/footer-logo.png"
-            alt="Logo"
-          />
+    <footer className="bg-primary px-4 py-20 md:px-20 space-y-10 text-white">
+      <div className="grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 gap-10 md:gap-20">
+        <div className="space-y-3">
+          <div className="flex items-center gap-x-2">
+            <img src={logoImage} alt="Logo" className="h-16" />
+            <h1 className="font-semibold text-3xl">NusaTrip</h1>
+          </div>
           <blockquote className="italic">
             Nusa Trip Travel Agency offers unique and memorable tours, providing
             rich experiences in the beautiful country of Nusa Trip. [+]
           </blockquote>
-          <div className="flex items-center gap-x-1">
+          <div className="flex items-center gap-x-2">
             <a href="">
               <FaWhatsapp size={22} />
             </a>
@@ -39,7 +40,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="space-y-3 max-w-1/4">
+        <div className="space-y-3">
           <h1 className="text-2xl font-semibold mb-4">Contact Info</h1>
           <p className="text-md text-white/80">
             Jl. ikan wijinongko no 12 Banyuwangi, Jawa Timur, Indonesia.
@@ -62,7 +63,7 @@ export default function Footer() {
             </a>
           </p>
         </div>
-        <div className="space-y-3 max-w-1/4">
+        <div className="space-y-3">
           <h1 className="text-2xl font-semibold mb-4">Nusa Trip</h1>
           <p>
             <a
@@ -98,15 +99,19 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <img src={footerImage} alt="Footer Image" className="w-72" />
+          <img
+            src={footerImage}
+            alt="Footer Image"
+            className="w-full lg:w-72"
+          />
         </div>
       </div>
       <Separator />
-      <div className="flex items-center justify-between text-md">
-        <p className="text-white/80">
+      <div className="flex flex-col md:flex-row items-start lg:items-center justify-between text-lg md:text-md">
+        <p className="text-white/80 w-full md:w-3/4 lg:w-full">
           © 2024 Nusa Trip Travel Agency. All rights reserved.
         </p>
-        <div className="flex items-center gap-x-3">
+        <div className="flex items-center justify-start md:justify-end gap-x-3 w-full">
           <p>
             <a
               href=""
