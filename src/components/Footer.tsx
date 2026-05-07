@@ -49,7 +49,7 @@ export default function Footer() {
           <p>
             <a
               href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               nusatrip@gmail.com
             </a>
@@ -57,7 +57,7 @@ export default function Footer() {
           <p>
             <a
               href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               www.nusatrip.com
             </a>
@@ -67,34 +67,42 @@ export default function Footer() {
           <h1 className="text-2xl font-semibold mb-4">Nusa Trip</h1>
           <p>
             <a
-              href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              href="#"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               Home
             </a>
           </p>
           <p>
             <a
-              href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              href="#about"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               About
             </a>
           </p>
           <p>
             <a
-              href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              href="#destinations"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               Destinations
             </a>
           </p>
           <p>
             <a
-              href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              href="#advantages"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               Advantages
+            </a>
+          </p>
+          <p>
+            <a
+              href="#reviews"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
+            >
+              Reviews
             </a>
           </p>
         </div>
@@ -115,7 +123,7 @@ export default function Footer() {
           <p>
             <a
               href=""
-              className="cursor-pointer hover:text-green-500 transition duration-300"
+              className="cursor-pointer hover:text-secondary transition duration-300"
             >
               Privacy Policy
             </a>
@@ -123,7 +131,7 @@ export default function Footer() {
           <p>
             <a
               href=""
-              className="cursor-pointer hover:text-green-500 transition duration-300"
+              className="cursor-pointer hover:text-secondary transition duration-300"
             >
               Terms of Use
             </a>
