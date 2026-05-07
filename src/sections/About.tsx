@@ -6,7 +6,10 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 export default function About() {
   return (
-    <section className="bg-gray-100 flex flex-col-reverse lg:flex-row items-start lg:justify-evenly px-4 py-20 md:px-20 gap-20 lg:gap-28">
+    <section
+      className="bg-linear-to-b from-gray-200 to-gray-100 flex flex-col-reverse lg:flex-row items-start lg:justify-evenly px-4 py-20 md:px-20 gap-20 lg:gap-28"
+      id="about"
+    >
       <div className="relative">
         <div className="absolute md:translate-x-1/2 -top-1/6 md:top-1/8 right-6 md:right-0">
           <div className="p-4 space-y-2 bg-white rounded-t-lg justify-items-center">

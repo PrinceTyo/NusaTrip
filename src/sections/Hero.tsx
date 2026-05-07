@@ -1,13 +1,14 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { SlLocationPin } from "react-icons/sl";
 import { FiSearch } from "react-icons/fi";
+import heroImage from "@/assets/hero.jpg";
 
 export default function Hero() {
   return (
     <section
       className="relative min-h-screen flex justify-center items-center px-0 lg:px-20 text-white"
       style={{
-        backgroundImage: `url(https://moliva.themenix.com/assets/img/hero/h1.jpg)`,
+        backgroundImage: `url(${heroImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -24,9 +25,11 @@ export default function Hero() {
               Enjoy the beautiful and romantic nature
             </h1>
             <div>
-              <button className="flex items-center gap-x-1 mt-10 border bg-transparent text-white hover:bg-white hover:text-black transition duration-300 px-10 py-2.5 rounded-lg tracking-widest">
-                EXPLORE <IoIosArrowRoundForward size={22} />
-              </button>
+              <a href="#destinations">
+                <button className="flex items-center gap-x-1 mt-10 border bg-transparent text-white hover:bg-white hover:text-black transition duration-300 px-10 py-2.5 rounded-lg tracking-widest">
+                  EXPLORE <IoIosArrowRoundForward size={22} />
+                </button>
+              </a>
             </div>
           </div>
         </div>

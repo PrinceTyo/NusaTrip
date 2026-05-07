@@ -73,7 +73,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 className={`
                       block py-2 px-3 rounded transition
                       ${
@@ -88,7 +88,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#destinations"
                 className={`
                       block py-2 px-3 rounded transition
                       ${
@@ -103,7 +103,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#advantages"
                 className={`
                       block py-2 px-3 rounded transition
                       ${
@@ -118,7 +118,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#reviews"
                 className={`
                       block py-2 px-3 rounded transition
                       ${

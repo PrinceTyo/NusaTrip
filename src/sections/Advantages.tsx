@@ -10,7 +10,10 @@ import {
 
 export default function Advantages() {
   return (
-    <section className="bg-gray-100 flex flex-col-reverse lg:flex-row items-start lg:justify-evenly px-4 py-20 md:px-20 gap-14 lg:gap-34">
+    <section
+      className="bg-linear-to-b from-gray-200 to-gray-100 flex flex-col-reverse lg:flex-row items-start lg:justify-evenly px-4 py-20 md:px-20 gap-14 lg:gap-34"
+      id="advantages"
+    >
       <div className="relative lg:max-w-[40%]">
         <div className="absolute translate-x-1/2 -top-6 lg:top-1/8 right-1/4 lg:-right-5">
           <div className="p-4 space-y-2 bg-white rounded-t-lg justify-items-center">
@@ -112,10 +115,12 @@ export default function Advantages() {
           </AccordionItem>
         </Accordion>
 
-        <button className="mt-10 py-3 px-6 text-white cursor-pointer font-medium tracking-widest bg-secondary rounded-xl flex gap-x-1 ">
-          VIEW TOURS
-          <IoIosArrowRoundForward size={24} />
-        </button>
+        <a href="#destinations">
+          <button className="mt-10 py-3 px-6 text-white cursor-pointer font-medium tracking-widest bg-secondary rounded-xl flex gap-x-1 ">
+            VIEW TOURS
+            <IoIosArrowRoundForward size={24} />
+          </button>
+        </a>
       </div>
     </section>
   );
