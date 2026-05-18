@@ -23,19 +23,19 @@ export default function Footer() {
             rich experiences in the beautiful country of Nusa Trip. [+]
           </blockquote>
           <div className="flex items-center gap-x-2">
-            <a href="">
+            <a href="#">
               <FaWhatsapp size={22} />
             </a>
-            <a href="">
+            <a href="#">
               <FaInstagram size={22} />
             </a>
-            <a href="">
+            <a href="#">
               <FaFacebook size={22} />
             </a>
-            <a href="">
+            <a href="#">
               <FaPinterest size={22} />
             </a>
-            <a href="">
+            <a href="#">
               <RiTwitterXFill size={22} />
             </a>
           </div>
@@ -48,7 +48,7 @@ export default function Footer() {
           <p className="text-md text-white/80">+62-881-1661-7171</p>
           <p>
             <a
-              href=""
+              href="#"
               className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               nusatrip@gmail.com
@@ -56,7 +56,7 @@ export default function Footer() {
           </p>
           <p>
             <a
-              href=""
+              href="#"
               className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               www.nusatrip.com

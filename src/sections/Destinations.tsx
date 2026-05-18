@@ -55,7 +55,7 @@ export default function Destinations() {
         <CarouselContent className="-ml-1">
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/4">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-80 bg-white">
+              <div className="rounded-lg w-full bg-white shadow-md">
                 <img
                   src={baliImage}
                   alt="Image Destination"
@@ -92,7 +92,10 @@ export default function Destinations() {
                     <h1 className="text-2xl font-bold text-gray-800">
                       Rp. 3.599.000
                     </h1>
-                    <button className="cursor-pointer p-2 bg-secondary text-white rounded-full">
+                    <button
+                      aria-label="Order button"
+                      className="cursor-pointer p-2 bg-secondary text-white rounded-full"
+                    >
                       <IoIosArrowRoundForward size={24} />
                     </button>
                   </div>
@@ -103,7 +106,7 @@ export default function Destinations() {
           {/* Komodo Island */}
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/4">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-80 bg-white">
+              <div className="rounded-lg w-full bg-white shadow-md">
                 <img
                   src={komodoImage}
                   alt="Image Destination"
@@ -140,7 +143,10 @@ export default function Destinations() {
                     <h1 className="text-2xl font-bold text-gray-800">
                       Rp. 2.500.000
                     </h1>
-                    <button className="cursor-pointer p-2 bg-secondary text-white rounded-full">
+                    <button
+                      aria-label="Order button"
+                      className="cursor-pointer p-2 bg-secondary text-white rounded-full"
+                    >
                       <IoIosArrowRoundForward size={24} />
                     </button>
                   </div>
@@ -151,7 +157,7 @@ export default function Destinations() {
           {/* Bromo */}
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/4">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-80 bg-white">
+              <div className="rounded-lg w-full bg-white shadow-md">
                 <img
                   src={bromoImage}
                   alt="Image Destination"
@@ -188,7 +194,10 @@ export default function Destinations() {
                     <h1 className="text-2xl font-bold text-gray-800">
                       Rp. 1.500.000
                     </h1>
-                    <button className="cursor-pointer p-2 bg-secondary text-white rounded-full">
+                    <button
+                      aria-label="Order button"
+                      className="cursor-pointer p-2 bg-secondary text-white rounded-full"
+                    >
                       <IoIosArrowRoundForward size={24} />
                     </button>
                   </div>
@@ -199,7 +208,7 @@ export default function Destinations() {
           {/* Ijen */}
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/4">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-80 bg-white">
+              <div className="rounded-lg w-full bg-white shadow-md">
                 <img
                   src={ijenImage}
                   alt="Image Destination"
@@ -236,7 +245,10 @@ export default function Destinations() {
                     <h1 className="text-2xl font-bold text-gray-800">
                       Rp. 1.299.000
                     </h1>
-                    <button className="cursor-pointer p-2 bg-secondary text-white rounded-full">
+                    <button
+                      aria-label="Order button"
+                      className="cursor-pointer p-2 bg-secondary text-white rounded-full"
+                    >
                       <IoIosArrowRoundForward size={24} />
                     </button>
                   </div>
@@ -247,7 +259,7 @@ export default function Destinations() {
           {/* Raja Ampat */}
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/4">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-80 bg-white">
+              <div className="rounded-lg w-full bg-white shadow-md">
                 <img
                   src={rampatImage}
                   alt="Image Destination"
@@ -284,7 +296,10 @@ export default function Destinations() {
                     <h1 className="text-2xl font-bold text-gray-800">
                       Rp. 4.500.000
                     </h1>
-                    <button className="cursor-pointer p-2 bg-secondary text-white rounded-full">
+                    <button
+                      aria-label="Order button"
+                      className="cursor-pointer p-2 bg-secondary text-white rounded-full"
+                    >
                       <IoIosArrowRoundForward size={24} />
                     </button>
                   </div>
@@ -295,7 +310,7 @@ export default function Destinations() {
           {/* Ranu Kumbolo */}
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/4">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-80 bg-white">
+              <div className="rounded-lg w-full bg-white shadow-md">
                 <img
                   src={rakumImage}
                   alt="Image Destination"
@@ -332,7 +347,10 @@ export default function Destinations() {
                     <h1 className="text-2xl font-bold text-gray-800">
                       Rp. 1.799.000
                     </h1>
-                    <button className="cursor-pointer p-2 bg-secondary text-white rounded-full">
+                    <button
+                      aria-label="Order button"
+                      className="cursor-pointer p-2 bg-secondary text-white rounded-full"
+                    >
                       <IoIosArrowRoundForward size={24} />
                     </button>
                   </div>
@@ -343,7 +361,7 @@ export default function Destinations() {
           {/* Candi Borobudur */}
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/4">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-80 bg-white">
+              <div className="rounded-lg w-full bg-white shadow-md">
                 <img
                   src={borobudurImage}
                   alt="Image Destination"
@@ -380,7 +398,10 @@ export default function Destinations() {
                     <h1 className="text-2xl font-bold text-gray-800">
                       Rp. 5.000.000
                     </h1>
-                    <button className="cursor-pointer p-2 bg-secondary text-white rounded-full">
+                    <button
+                      aria-label="Order button"
+                      className="cursor-pointer p-2 bg-secondary text-white rounded-full"
+                    >
                       <IoIosArrowRoundForward size={24} />
                     </button>
                   </div>

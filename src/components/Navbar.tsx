@@ -68,7 +68,7 @@ export default function Navbar() {
                       }
                     `}
               >
-                Beranda
+                Home
               </a>
             </li>
             <li>
