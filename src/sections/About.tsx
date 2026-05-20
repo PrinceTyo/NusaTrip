@@ -82,10 +82,12 @@ export default function About() {
             </p>
           </div>
         </div>
-        <button className="mt-10 py-3 px-6 text-white cursor-pointer font-medium tracking-widest bg-secondary rounded-xl flex gap-x-1 ">
-          READ MORE
-          <IoIosArrowRoundForward size={24} />
-        </button>
+        <a href="#destinations">
+          <button className="mt-10 py-3 px-6 text-white cursor-pointer font-medium tracking-widest bg-secondary rounded-xl flex gap-x-1 ">
+            READ MORE
+            <IoIosArrowRoundForward size={24} />
+          </button>
+        </a>
       </div>
     </section>
   );
