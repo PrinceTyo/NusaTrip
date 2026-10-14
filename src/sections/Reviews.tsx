@@ -56,7 +56,7 @@ export default function Reviews() {
         <CarouselContent className="-ml-1">
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
+              <div className="rounded-lg w-full md:w-full bg-white p-6 space-y-4 shadow-md">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-x-4">
                     <Avatar className="w-16 h-16">
@@ -98,7 +98,7 @@ export default function Reviews() {
           </CarouselItem>
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
+              <div className="rounded-lg w-full md:w-full bg-white p-6 space-y-4 shadow-md">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-x-4">
                     <Avatar className="w-16 h-16">
@@ -140,7 +140,7 @@ export default function Reviews() {
           </CarouselItem>
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
+              <div className="rounded-lg w-full md:w-full bg-white p-6 space-y-4 shadow-md">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-x-4">
                     <Avatar className="w-16 h-16">
@@ -182,7 +182,7 @@ export default function Reviews() {
           </CarouselItem>
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
+              <div className="rounded-lg w-full md:w-full bg-white p-6 space-y-4 shadow-md">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-x-4">
                     <Avatar className="w-16 h-16">
@@ -224,7 +224,7 @@ export default function Reviews() {
           </CarouselItem>
           <CarouselItem className="pl-1 md:basis-auto lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-106 bg-white p-6 space-y-4 shadow-md">
+              <div className="rounded-lg w-full md:w-full bg-white p-6 space-y-4 shadow-md">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-x-4">
                     <Avatar className="w-16 h-16">

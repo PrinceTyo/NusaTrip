@@ -165,7 +165,7 @@ export default function Destinations() {
                 />
                 <div className="p-6 space-y-4">
                   <h1 className="text-xl font-medium">
-                    Climbing and experiencing life in Bromo
+                    Climbing and experiencing slow life in Bromo
                   </h1>
                   <div className="flex items-center gap-3">
                     <div className="flex items-end gap-x-1">
